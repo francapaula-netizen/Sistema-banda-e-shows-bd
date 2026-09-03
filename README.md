@@ -22,8 +22,8 @@ independente, permitindo que organizadores de eventos e empresário consigam ger
 *SHOW:* Representa o evento/ apresentação agendado entre uma banda e um local em uma data específica.
 
 ---
-## Regras de negócio e Processos Principais 
-*Cadastro de Bandas:* O sistema
+## Relacionamentos e Cardinalidades 
+*[BANDA] (1,1)-POSSUI-(1,N)
 
 
 
