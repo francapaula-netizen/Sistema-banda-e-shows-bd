@@ -24,8 +24,8 @@ independente, permitindo que organizadores de eventos e empresário consigam ger
 ---
 ## Relacionamentos e Cardinalidades 
 *[BANDA] (1,1)-POSSUI-(1,N)
-
-
+[INTEGRANTE]* 
+**Explicação:8 Uma Banda 
 
 
 
