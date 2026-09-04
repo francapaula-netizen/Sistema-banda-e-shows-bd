@@ -11,7 +11,7 @@ O gerenciamento de eventos musicais, agendamento de apresentações e controle d
 5. **Tarefas Atendidas:**
    * Listar todos os integrantes de uma determinada banda e seus respectivos instrumentos.
    * Registrar o local e a data em que uma banda irá se apresentar.
-   * Consultar o histórico completo de shows filtrados por cidade.
+   * Consultar o histórico completo de shows filtrados por cidade. 
 
 
 
