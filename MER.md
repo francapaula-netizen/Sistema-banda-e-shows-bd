@@ -87,5 +87,3 @@ erDiagram
         date data_show
         float preco_ingresso
     }
-
-<img width="633" height="454" alt="Captura de tela 2026-11-03 154759" src="https://github.com/user-attachments/assets/b2e3edf3-6e38-4026-aae5-dcc8a5af6a87" />
