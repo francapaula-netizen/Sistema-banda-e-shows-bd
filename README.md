@@ -13,8 +13,9 @@ O gerenciamento de eventos musicais, agendamento de apresentações e controle d
    * Registrar o local e a data em que uma banda irá se apresentar.
    * Consultar o histórico completo de shows filtrados por cidade. 
 
+6. **Diagrama Entidade e Relacionamento (DER)**
 
-
+<img width="633" height="454" alt="Captura de tela 2026-11-03 154759" src="https://github.com/user-attachments/assets/cacbaff4-9f00-42db-bcfd-bd40125860bf" />
 
 
 
