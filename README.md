@@ -1,20 +1,20 @@
 # Sistema Catálogo de Bandas e Shows
 
-## Minimundo (Descrição do Contexto)
-O gerenciamento de eventos musicais, agendamento de apresentações e controle de integrantes de bandas costumam ser tarefas descentralizadas e suscetíveis a erros de organização. Este banco de dados visa resolver o problema da falta de centralização de dados no mercado musical independente, permitindo que organizadores de eventos e empresários consigam gerenciar bandas, seus músicos, os locais disponíveis para eventos e o histórico completo de apresentações realizadas.
+## Minimundo (Descrição Detalhada do Contexto)
 
-## Regras de Negócio e Processos Principais
-1. **Cadastro de Bandas:** O sistema deve registrar bandas musicais informando seu nome, gênero musical principal e ano de formação.
-2. **Gestão de Integrantes:** Cada banda possui um ou mais integrantes (músicos). É necessário armazenar o nome do músico, CPF, telefone e o instrumento que ele toca na banda. Um músico pertence a apenas uma banda no sistema.
-3. **Locais de Shows:** O sistema deve cadastrar os locais (casas de shows, teatros, arenas) com nome do espaço, capacidade máxima de público, cidade e estado.
-4. **Agendamento de Shows:** O sistema deve registrar os shows realizados ou agendados, vinculando qual banda tocará em qual local, registrando a data do evento e o valor do ingresso.
-5. **Tarefas Atendidas:**
-   * Listar todos os integrantes de uma determinada banda e seus respectivos instrumentos.
-   * Registrar o local e a data em que uma banda irá se apresentar.
-   * Consultar o histórico completo de shows filtrados por cidade. 
+No cenário do mercado musical independente, o gerenciamento de eventos, o agendamento de apresentações e o controle administrativo de grupos musicais costumam ocorrer de forma descentralizada — muitas vezes por meio de planilhas isoladas ou anotações manuais —, o que torna o processo suscetível a falhas de organização, conflitos de datas e perda de informações.
 
-6. **Diagrama Entidade e Relacionamento (DER)**
- 
+O **Sistema Catálogo de Bandas e Shows** foi projetado para resolver esse problema de falta de centralização de dados, oferecendo uma base relacional estruturada que permite a organizadores de eventos, produtores e empresários gerenciar de maneira integrada as bandas cadastradas, seus respectivos integrantes, os espaços disponíveis para apresentações e o histórico completo de shows realizados ou agendados.
+
+Para atender às necessidades operacionais do negócio, o banco de dados controla quatro pilares principais:
+
+* **Cadastro de Bandas:** Cada grupo musical registrado no sistema deve conter seu nome oficial, o gênero musical principal que representa e o ano em que a banda foi formada.
+* **Gestão de Integrantes:** Toda banda é composta por um ou mais músicos (integrantes). Para cada músico, o sistema armazena o nome completo, o CPF (como identificador único), o telefone de contato e o instrumento principal que ele toca. Por regra de negócio do sistema, cada músico pertence a apenas uma única banda.
+* **Locais de Espetáculos:** O sistema mantém um catálogo de espaços físicos aptos a receber eventos musicais — como casas de shows, teatros e arenas —, registrando o nome do estabelecimento, sua capacidade máxima de público, além da cidade e do estado onde está localizado.
+* **Agendamento e Histórico de Shows:** O controle de apresentações vincula uma banda específica a um local de espetáculo em uma data determinada, registrando também o valor cobrado pelo ingresso do evento. Uma banda pode realizar diversos shows ao longo do tempo e um mesmo local pode sediar várias apresentações, mas cada show registrado pertence a uma única banda e ocorre em um único local.
+
+Com essa estrutura centralizada, o sistema garante a integridade das informações e permite executar consultas essenciais para a rotina dos produtores, tais como listar todos os integrantes de uma banda específica com seus respectivos instrumentos, registrar e consultar a agenda futura de apresentações (data e local) de cada grupo e extrair o histórico completo de shows filtrados por cidade.
+
   <img width="800" height="607" alt="Diagrama" src="https://github.com/user-attachments/assets/fa62fea7-ca53-4b64-968a-fd456f987d96" />
 
 
