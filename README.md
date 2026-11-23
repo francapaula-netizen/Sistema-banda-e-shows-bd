@@ -14,7 +14,8 @@ O gerenciamento de eventos musicais, agendamento de apresentações e controle d
    * Consultar o histórico completo de shows filtrados por cidade. 
 
 6. **Diagrama Entidade e Relacionamento (DER)**
-   <img width="633" height="454" alt="Captura de tela 2026-11-03 154759" src="https://github.com/user-attachments/assets/e42befa0-83e2-4856-be5c-32714cdcdbb3" />
+ 
+  <img width="800" height="607" alt="Diagrama" src="https://github.com/user-attachments/assets/fa62fea7-ca53-4b64-968a-fd456f987d96" />
 
 
 
